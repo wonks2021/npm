@@ -18,7 +18,7 @@ stage('Cleancache') {
 stage ('Checkout') {
             steps {
                 //this is a comment 
-                git credentialsId: 'userId', url: ': 'master'
+                git credentialsId: 'userId', url: 'https://github.com/wonks2021/npm.git',branch: 'npm'
             }
 }
 stage ('Restore PACKAGES') {     
