@@ -12,7 +12,7 @@ npm = '/usr/local/bin/npm'
 stages {
 stage('Cleancache') {
       steps {
-            sh 'rm -rf /home/ubuntu/jenkins/workspace/npm101/*'
+            sh 'rm -rf /home/ubuntu/jenkins/workspace/npm/*'
        }
     }
 stage ('Checkout') {
